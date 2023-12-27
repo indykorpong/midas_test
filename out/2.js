@@ -16,4 +16,3 @@ function getQuestionPart(phrases) {
     const newPhrases = phrases.map((phrase) => phrase.replace(longestSubstring, "").trim());
     return newPhrases;
 }
-console.log(getQuestionPart(["BEFRIEND", "GIRLFRIEND", "FRIENDSHIP"]));
